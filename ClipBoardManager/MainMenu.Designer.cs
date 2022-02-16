@@ -32,70 +32,70 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             this.elipseForm = new Guna.UI.WinForms.GunaElipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.contactButton = new FontAwesome.Sharp.IconButton();
             this.panelVersion = new System.Windows.Forms.Panel();
             this.btnSendFeedback = new System.Windows.Forms.LinkLabel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.backupClipboard = new FontAwesome.Sharp.IconButton();
-            this.updateButton = new FontAwesome.Sharp.IconButton();
-            this.categoriesButton = new FontAwesome.Sharp.IconButton();
-            this.settingsButton = new FontAwesome.Sharp.IconButton();
-            this.dashboardButton = new FontAwesome.Sharp.IconButton();
             this.panelIcon = new System.Windows.Forms.Panel();
             this.lblManagerTxt = new System.Windows.Forms.Label();
             this.lblClipboardTxt = new System.Windows.Forms.Label();
             this.panelHeader = new System.Windows.Forms.Panel();
             this.lblTitleChildForm = new System.Windows.Forms.Label();
-            this.aboutButton = new System.Windows.Forms.PictureBox();
-            this.exitButton = new System.Windows.Forms.PictureBox();
-            this.minimizeButton = new System.Windows.Forms.PictureBox();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
             this.gunaGradient2Panel5 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.gunaGradient2Panel2 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.lblBackupDate = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblHour = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.PanelTimer = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.aboutButton = new System.Windows.Forms.PictureBox();
+            this.exitButton = new System.Windows.Forms.PictureBox();
+            this.minimizeButton = new System.Windows.Forms.PictureBox();
+            this.contactButton = new FontAwesome.Sharp.IconButton();
+            this.backupClipboard = new FontAwesome.Sharp.IconButton();
+            this.updateButton = new FontAwesome.Sharp.IconButton();
+            this.categoriesButton = new FontAwesome.Sharp.IconButton();
+            this.settingsButton = new FontAwesome.Sharp.IconButton();
+            this.dashboardButton = new FontAwesome.Sharp.IconButton();
             this.panel2.SuspendLayout();
             this.panelVersion.SuspendLayout();
             this.panelIcon.SuspendLayout();
             this.panelHeader.SuspendLayout();
+            this.panelDesktop.SuspendLayout();
+            this.gunaGradient2Panel5.SuspendLayout();
+            this.gunaGradient2Panel4.SuspendLayout();
+            this.gunaGradient2Panel3.SuspendLayout();
+            this.gunaGradient2Panel2.SuspendLayout();
+            this.gunaGradient2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aboutButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minimizeButton)).BeginInit();
-            this.panelDesktop.SuspendLayout();
-            this.gunaGradient2Panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.gunaGradient2Panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.gunaGradient2Panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.gunaGradient2Panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.gunaGradient2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // elipseForm
@@ -119,27 +119,6 @@
             this.panel2.Size = new System.Drawing.Size(162, 519);
             this.panel2.TabIndex = 1;
             // 
-            // contactButton
-            // 
-            this.contactButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.contactButton.FlatAppearance.BorderSize = 0;
-            this.contactButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.contactButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.contactButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.contactButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.contactButton.ForeColor = System.Drawing.Color.Transparent;
-            this.contactButton.IconChar = FontAwesome.Sharp.IconChar.IdCard;
-            this.contactButton.IconColor = System.Drawing.Color.White;
-            this.contactButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.contactButton.IconSize = 36;
-            this.contactButton.Location = new System.Drawing.Point(0, 399);
-            this.contactButton.Name = "contactButton";
-            this.contactButton.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.contactButton.Size = new System.Drawing.Size(162, 65);
-            this.contactButton.TabIndex = 7;
-            this.contactButton.UseVisualStyleBackColor = true;
-            this.contactButton.Click += new System.EventHandler(this.contactButton_Click);
-            // 
             // panelVersion
             // 
             this.panelVersion.Controls.Add(this.btnSendFeedback);
@@ -155,6 +134,7 @@
             // btnSendFeedback
             // 
             this.btnSendFeedback.AutoSize = true;
+            this.btnSendFeedback.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSendFeedback.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSendFeedback.LinkColor = System.Drawing.Color.Transparent;
             this.btnSendFeedback.Location = new System.Drawing.Point(33, 26);
@@ -195,120 +175,22 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "All Rights Are Free";
             // 
-            // backupClipboard
-            // 
-            this.backupClipboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.backupClipboard.FlatAppearance.BorderSize = 0;
-            this.backupClipboard.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.backupClipboard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.backupClipboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.backupClipboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backupClipboard.ForeColor = System.Drawing.Color.Transparent;
-            this.backupClipboard.IconChar = FontAwesome.Sharp.IconChar.FileExport;
-            this.backupClipboard.IconColor = System.Drawing.Color.White;
-            this.backupClipboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.backupClipboard.IconSize = 36;
-            this.backupClipboard.Location = new System.Drawing.Point(0, 334);
-            this.backupClipboard.Name = "backupClipboard";
-            this.backupClipboard.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.backupClipboard.Size = new System.Drawing.Size(162, 65);
-            this.backupClipboard.TabIndex = 5;
-            this.backupClipboard.UseVisualStyleBackColor = true;
-            this.backupClipboard.Click += new System.EventHandler(this.backupClipboard_Click);
-            // 
-            // updateButton
-            // 
-            this.updateButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.updateButton.FlatAppearance.BorderSize = 0;
-            this.updateButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.updateButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.updateButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.updateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.updateButton.ForeColor = System.Drawing.Color.Transparent;
-            this.updateButton.IconChar = FontAwesome.Sharp.IconChar.ArrowAltCircleDown;
-            this.updateButton.IconColor = System.Drawing.Color.White;
-            this.updateButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.updateButton.IconSize = 36;
-            this.updateButton.Location = new System.Drawing.Point(0, 269);
-            this.updateButton.Name = "updateButton";
-            this.updateButton.Size = new System.Drawing.Size(162, 65);
-            this.updateButton.TabIndex = 4;
-            this.updateButton.UseVisualStyleBackColor = true;
-            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
-            // 
-            // categoriesButton
-            // 
-            this.categoriesButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.categoriesButton.FlatAppearance.BorderSize = 0;
-            this.categoriesButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.categoriesButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.categoriesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.categoriesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.categoriesButton.ForeColor = System.Drawing.Color.Transparent;
-            this.categoriesButton.IconChar = FontAwesome.Sharp.IconChar.LayerGroup;
-            this.categoriesButton.IconColor = System.Drawing.Color.White;
-            this.categoriesButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.categoriesButton.IconSize = 36;
-            this.categoriesButton.Location = new System.Drawing.Point(0, 204);
-            this.categoriesButton.Name = "categoriesButton";
-            this.categoriesButton.Size = new System.Drawing.Size(162, 65);
-            this.categoriesButton.TabIndex = 3;
-            this.categoriesButton.UseVisualStyleBackColor = true;
-            this.categoriesButton.Click += new System.EventHandler(this.categoriesButton_Click);
-            // 
-            // settingsButton
-            // 
-            this.settingsButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.settingsButton.FlatAppearance.BorderSize = 0;
-            this.settingsButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.settingsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.settingsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.settingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.settingsButton.ForeColor = System.Drawing.Color.Transparent;
-            this.settingsButton.IconChar = FontAwesome.Sharp.IconChar.Cog;
-            this.settingsButton.IconColor = System.Drawing.Color.White;
-            this.settingsButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.settingsButton.IconSize = 36;
-            this.settingsButton.Location = new System.Drawing.Point(0, 139);
-            this.settingsButton.Name = "settingsButton";
-            this.settingsButton.Size = new System.Drawing.Size(162, 65);
-            this.settingsButton.TabIndex = 2;
-            this.settingsButton.UseVisualStyleBackColor = true;
-            this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
-            // 
-            // dashboardButton
-            // 
-            this.dashboardButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dashboardButton.FlatAppearance.BorderSize = 0;
-            this.dashboardButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.dashboardButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.dashboardButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.dashboardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dashboardButton.ForeColor = System.Drawing.Color.Transparent;
-            this.dashboardButton.IconChar = FontAwesome.Sharp.IconChar.ChartArea;
-            this.dashboardButton.IconColor = System.Drawing.Color.White;
-            this.dashboardButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.dashboardButton.IconSize = 36;
-            this.dashboardButton.Location = new System.Drawing.Point(0, 74);
-            this.dashboardButton.Name = "dashboardButton";
-            this.dashboardButton.Size = new System.Drawing.Size(162, 65);
-            this.dashboardButton.TabIndex = 1;
-            this.dashboardButton.UseVisualStyleBackColor = true;
-            this.dashboardButton.Click += new System.EventHandler(this.dashboardButton_Click);
-            // 
             // panelIcon
             // 
             this.panelIcon.Controls.Add(this.lblManagerTxt);
             this.panelIcon.Controls.Add(this.lblClipboardTxt);
+            this.panelIcon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panelIcon.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelIcon.Location = new System.Drawing.Point(0, 0);
             this.panelIcon.Name = "panelIcon";
             this.panelIcon.Size = new System.Drawing.Size(162, 74);
             this.panelIcon.TabIndex = 0;
+            this.panelIcon.Paint += new System.Windows.Forms.PaintEventHandler(this.panelIcon_Paint);
             // 
             // lblManagerTxt
             // 
             this.lblManagerTxt.AutoSize = true;
+            this.lblManagerTxt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblManagerTxt.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblManagerTxt.Location = new System.Drawing.Point(57, 33);
             this.lblManagerTxt.Name = "lblManagerTxt";
@@ -320,6 +202,7 @@
             // lblClipboardTxt
             // 
             this.lblClipboardTxt.AutoSize = true;
+            this.lblClipboardTxt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblClipboardTxt.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblClipboardTxt.Location = new System.Drawing.Point(12, 13);
             this.lblClipboardTxt.Name = "lblClipboardTxt";
@@ -350,42 +233,6 @@
             this.lblTitleChildForm.Size = new System.Drawing.Size(67, 15);
             this.lblTitleChildForm.TabIndex = 24;
             this.lblTitleChildForm.Text = "FormName";
-            // 
-            // aboutButton
-            // 
-            this.aboutButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.aboutButton.Image = global::ClipBoardManager.Properties.Resources.minimized;
-            this.aboutButton.Location = new System.Drawing.Point(713, 10);
-            this.aboutButton.Name = "aboutButton";
-            this.aboutButton.Size = new System.Drawing.Size(15, 15);
-            this.aboutButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.aboutButton.TabIndex = 23;
-            this.aboutButton.TabStop = false;
-            this.aboutButton.Click += new System.EventHandler(this.aboutButton_Click);
-            // 
-            // exitButton
-            // 
-            this.exitButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.exitButton.Image = global::ClipBoardManager.Properties.Resources.close;
-            this.exitButton.Location = new System.Drawing.Point(743, 10);
-            this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(15, 15);
-            this.exitButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.exitButton.TabIndex = 21;
-            this.exitButton.TabStop = false;
-            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
-            // 
-            // minimizeButton
-            // 
-            this.minimizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.minimizeButton.Image = global::ClipBoardManager.Properties.Resources.about;
-            this.minimizeButton.Location = new System.Drawing.Point(728, 10);
-            this.minimizeButton.Name = "minimizeButton";
-            this.minimizeButton.Size = new System.Drawing.Size(15, 15);
-            this.minimizeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.minimizeButton.TabIndex = 22;
-            this.minimizeButton.TabStop = false;
-            this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
             // 
             // panelDesktop
             // 
@@ -454,16 +301,6 @@
             this.label11.TabIndex = 12;
             this.label11.Text = "Data";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::ClipBoardManager.Properties.Resources.data;
-            this.pictureBox5.Location = new System.Drawing.Point(108, 82);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(29, 28);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 10;
-            this.pictureBox5.TabStop = false;
-            // 
             // gunaGradient2Panel4
             // 
             this.gunaGradient2Panel4.BackColor = System.Drawing.Color.Transparent;
@@ -497,16 +334,6 @@
             this.label8.Size = new System.Drawing.Size(78, 16);
             this.label8.TabIndex = 9;
             this.label8.Text = "Feedbacks";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::ClipBoardManager.Properties.Resources.feedback1;
-            this.pictureBox4.Location = new System.Drawing.Point(152, 81);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 29);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
             // 
             // gunaGradient2Panel3
             // 
@@ -542,16 +369,6 @@
             this.label7.TabIndex = 8;
             this.label7.Text = "Categories";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ClipBoardManager.Properties.Resources.category;
-            this.pictureBox3.Location = new System.Drawing.Point(151, 80);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(31, 31);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            // 
             // gunaGradient2Panel2
             // 
             this.gunaGradient2Panel2.BackColor = System.Drawing.Color.Transparent;
@@ -586,16 +403,6 @@
             this.label10.TabIndex = 10;
             this.label10.Text = "Backup";
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::ClipBoardManager.Properties.Resources.backup;
-            this.pictureBox6.Location = new System.Drawing.Point(105, 79);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(31, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 11;
-            this.pictureBox6.TabStop = false;
-            // 
             // gunaGradient2Panel1
             // 
             this.gunaGradient2Panel1.BackColor = System.Drawing.Color.Transparent;
@@ -621,16 +428,6 @@
             this.lblBackupDate.Size = new System.Drawing.Size(200, 16);
             this.lblBackupDate.TabIndex = 8;
             this.lblBackupDate.Text = "Last Backup Date : 30/05/2022";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ClipBoardManager.Properties.Resources.dayico;
-            this.pictureBox2.Location = new System.Drawing.Point(376, 79);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 29);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
             // 
             // lblDate
             // 
@@ -675,6 +472,224 @@
             this.PanelTimer.Interval = 1;
             this.PanelTimer.Tick += new System.EventHandler(this.PanelTimer_Tick);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = global::ClipBoardManager.Properties.Resources.data;
+            this.pictureBox5.Location = new System.Drawing.Point(108, 82);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(29, 28);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 10;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox4.Image = global::ClipBoardManager.Properties.Resources.feedback1;
+            this.pictureBox4.Location = new System.Drawing.Point(152, 81);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 29);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::ClipBoardManager.Properties.Resources.category;
+            this.pictureBox3.Location = new System.Drawing.Point(151, 80);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(31, 31);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = global::ClipBoardManager.Properties.Resources.backup;
+            this.pictureBox6.Location = new System.Drawing.Point(105, 79);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(31, 30);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 11;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ClipBoardManager.Properties.Resources.dayico;
+            this.pictureBox2.Location = new System.Drawing.Point(376, 79);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // aboutButton
+            // 
+            this.aboutButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.aboutButton.Image = global::ClipBoardManager.Properties.Resources.minimized;
+            this.aboutButton.Location = new System.Drawing.Point(713, 10);
+            this.aboutButton.Name = "aboutButton";
+            this.aboutButton.Size = new System.Drawing.Size(15, 15);
+            this.aboutButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.aboutButton.TabIndex = 23;
+            this.aboutButton.TabStop = false;
+            this.aboutButton.Click += new System.EventHandler(this.aboutButton_Click);
+            // 
+            // exitButton
+            // 
+            this.exitButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exitButton.Image = global::ClipBoardManager.Properties.Resources.close;
+            this.exitButton.Location = new System.Drawing.Point(743, 10);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(15, 15);
+            this.exitButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.exitButton.TabIndex = 21;
+            this.exitButton.TabStop = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // minimizeButton
+            // 
+            this.minimizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.minimizeButton.Image = global::ClipBoardManager.Properties.Resources.about;
+            this.minimizeButton.Location = new System.Drawing.Point(728, 10);
+            this.minimizeButton.Name = "minimizeButton";
+            this.minimizeButton.Size = new System.Drawing.Size(15, 15);
+            this.minimizeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.minimizeButton.TabIndex = 22;
+            this.minimizeButton.TabStop = false;
+            this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
+            // 
+            // contactButton
+            // 
+            this.contactButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.contactButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.contactButton.FlatAppearance.BorderSize = 0;
+            this.contactButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.contactButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.contactButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.contactButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.contactButton.ForeColor = System.Drawing.Color.Transparent;
+            this.contactButton.IconChar = FontAwesome.Sharp.IconChar.IdCard;
+            this.contactButton.IconColor = System.Drawing.Color.White;
+            this.contactButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.contactButton.IconSize = 36;
+            this.contactButton.Location = new System.Drawing.Point(0, 399);
+            this.contactButton.Name = "contactButton";
+            this.contactButton.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
+            this.contactButton.Size = new System.Drawing.Size(162, 65);
+            this.contactButton.TabIndex = 7;
+            this.contactButton.UseVisualStyleBackColor = true;
+            this.contactButton.Click += new System.EventHandler(this.contactButton_Click);
+            // 
+            // backupClipboard
+            // 
+            this.backupClipboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.backupClipboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.backupClipboard.FlatAppearance.BorderSize = 0;
+            this.backupClipboard.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.backupClipboard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.backupClipboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.backupClipboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backupClipboard.ForeColor = System.Drawing.Color.Transparent;
+            this.backupClipboard.IconChar = FontAwesome.Sharp.IconChar.FileExport;
+            this.backupClipboard.IconColor = System.Drawing.Color.White;
+            this.backupClipboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.backupClipboard.IconSize = 36;
+            this.backupClipboard.Location = new System.Drawing.Point(0, 334);
+            this.backupClipboard.Name = "backupClipboard";
+            this.backupClipboard.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.backupClipboard.Size = new System.Drawing.Size(162, 65);
+            this.backupClipboard.TabIndex = 5;
+            this.backupClipboard.UseVisualStyleBackColor = true;
+            this.backupClipboard.Click += new System.EventHandler(this.backupClipboard_Click);
+            // 
+            // updateButton
+            // 
+            this.updateButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.updateButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.updateButton.FlatAppearance.BorderSize = 0;
+            this.updateButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.updateButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.updateButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.updateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.updateButton.ForeColor = System.Drawing.Color.Transparent;
+            this.updateButton.IconChar = FontAwesome.Sharp.IconChar.ArrowAltCircleDown;
+            this.updateButton.IconColor = System.Drawing.Color.White;
+            this.updateButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.updateButton.IconSize = 36;
+            this.updateButton.Location = new System.Drawing.Point(0, 269);
+            this.updateButton.Name = "updateButton";
+            this.updateButton.Size = new System.Drawing.Size(162, 65);
+            this.updateButton.TabIndex = 4;
+            this.updateButton.UseVisualStyleBackColor = true;
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
+            // 
+            // categoriesButton
+            // 
+            this.categoriesButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.categoriesButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.categoriesButton.FlatAppearance.BorderSize = 0;
+            this.categoriesButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.categoriesButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.categoriesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.categoriesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.categoriesButton.ForeColor = System.Drawing.Color.Transparent;
+            this.categoriesButton.IconChar = FontAwesome.Sharp.IconChar.LayerGroup;
+            this.categoriesButton.IconColor = System.Drawing.Color.White;
+            this.categoriesButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.categoriesButton.IconSize = 36;
+            this.categoriesButton.Location = new System.Drawing.Point(0, 204);
+            this.categoriesButton.Name = "categoriesButton";
+            this.categoriesButton.Size = new System.Drawing.Size(162, 65);
+            this.categoriesButton.TabIndex = 3;
+            this.categoriesButton.UseVisualStyleBackColor = true;
+            this.categoriesButton.Click += new System.EventHandler(this.categoriesButton_Click);
+            // 
+            // settingsButton
+            // 
+            this.settingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.settingsButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.settingsButton.FlatAppearance.BorderSize = 0;
+            this.settingsButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.settingsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.settingsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.settingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.settingsButton.ForeColor = System.Drawing.Color.Transparent;
+            this.settingsButton.IconChar = FontAwesome.Sharp.IconChar.Cog;
+            this.settingsButton.IconColor = System.Drawing.Color.White;
+            this.settingsButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.settingsButton.IconSize = 36;
+            this.settingsButton.Location = new System.Drawing.Point(0, 139);
+            this.settingsButton.Name = "settingsButton";
+            this.settingsButton.Size = new System.Drawing.Size(162, 65);
+            this.settingsButton.TabIndex = 2;
+            this.settingsButton.UseVisualStyleBackColor = true;
+            this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
+            // 
+            // dashboardButton
+            // 
+            this.dashboardButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dashboardButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dashboardButton.FlatAppearance.BorderSize = 0;
+            this.dashboardButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.dashboardButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.dashboardButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.dashboardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dashboardButton.ForeColor = System.Drawing.Color.Transparent;
+            this.dashboardButton.IconChar = FontAwesome.Sharp.IconChar.ChartArea;
+            this.dashboardButton.IconColor = System.Drawing.Color.White;
+            this.dashboardButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.dashboardButton.IconSize = 36;
+            this.dashboardButton.Location = new System.Drawing.Point(0, 74);
+            this.dashboardButton.Name = "dashboardButton";
+            this.dashboardButton.Size = new System.Drawing.Size(162, 65);
+            this.dashboardButton.TabIndex = 1;
+            this.dashboardButton.UseVisualStyleBackColor = true;
+            this.dashboardButton.Click += new System.EventHandler(this.dashboardButton_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -701,26 +716,26 @@
             this.panelIcon.PerformLayout();
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.aboutButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.exitButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minimizeButton)).EndInit();
             this.panelDesktop.ResumeLayout(false);
             this.panelDesktop.PerformLayout();
             this.gunaGradient2Panel5.ResumeLayout(false);
             this.gunaGradient2Panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.gunaGradient2Panel4.ResumeLayout(false);
             this.gunaGradient2Panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.gunaGradient2Panel3.ResumeLayout(false);
             this.gunaGradient2Panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.gunaGradient2Panel2.ResumeLayout(false);
             this.gunaGradient2Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.gunaGradient2Panel1.ResumeLayout(false);
             this.gunaGradient2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aboutButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exitButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minimizeButton)).EndInit();
             this.ResumeLayout(false);
 
         }

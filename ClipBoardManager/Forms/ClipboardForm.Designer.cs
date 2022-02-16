@@ -35,9 +35,9 @@
             this.actionSelect = new Guna.UI.WinForms.GunaComboBox();
             this.lblMsg = new System.Windows.Forms.Label();
             this.clipboardListView = new System.Windows.Forms.ListBox();
-            this.executeButton = new FontAwesome.Sharp.IconButton();
             this.ClipboardController = new System.Windows.Forms.Timer(this.components);
             this.MsgTimer = new System.Windows.Forms.Timer(this.components);
+            this.executeButton = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // gunaComboBox1
@@ -139,10 +139,21 @@
             this.clipboardListView.FormattingEnabled = true;
             this.clipboardListView.HorizontalScrollbar = true;
             this.clipboardListView.ItemHeight = 16;
-            this.clipboardListView.Location = new System.Drawing.Point(0, 71);
+            this.clipboardListView.Location = new System.Drawing.Point(7, 71);
             this.clipboardListView.Name = "clipboardListView";
             this.clipboardListView.Size = new System.Drawing.Size(650, 224);
             this.clipboardListView.TabIndex = 12;
+            // 
+            // ClipboardController
+            // 
+            this.ClipboardController.Enabled = true;
+            this.ClipboardController.Interval = 1;
+            this.ClipboardController.Tick += new System.EventHandler(this.ClipboardController_Tick);
+            // 
+            // MsgTimer
+            // 
+            this.MsgTimer.Interval = 1000;
+            this.MsgTimer.Tick += new System.EventHandler(this.MsgTimer_Tick);
             // 
             // executeButton
             // 
@@ -162,17 +173,6 @@
             this.executeButton.TabIndex = 17;
             this.executeButton.UseVisualStyleBackColor = true;
             this.executeButton.Click += new System.EventHandler(this.executeButton_Click);
-            // 
-            // ClipboardController
-            // 
-            this.ClipboardController.Enabled = true;
-            this.ClipboardController.Interval = 1;
-            this.ClipboardController.Tick += new System.EventHandler(this.ClipboardController_Tick);
-            // 
-            // MsgTimer
-            // 
-            this.MsgTimer.Interval = 1000;
-            this.MsgTimer.Tick += new System.EventHandler(this.MsgTimer_Tick);
             // 
             // ClipboardForm
             // 

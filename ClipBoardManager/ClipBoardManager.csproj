@@ -99,17 +99,47 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Backup.Designer.cs">
+      <DependentUpon>Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ClipboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\ClipboardForm.Designer.cs">
       <DependentUpon>ClipboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Contact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Contact.Designer.cs">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Feedback.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Feedback.Designer.cs">
       <DependentUpon>Feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateChecker.Designer.cs">
+      <DependentUpon>UpdateChecker.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
@@ -123,6 +153,9 @@
     <Compile Include="Services\RegistryDataBuilder.cs" />
     <EmbeddedResource Include="Forms\ClipboardForm.resx">
       <DependentUpon>ClipboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Contact.resx">
+      <DependentUpon>Contact.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Feedback.resx">
       <DependentUpon>Feedback.cs</DependentUpon>
@@ -167,6 +200,7 @@
     <None Include="Resources\githubicon.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\twitter.png" />
     <None Include="Resources\backup.png" />
     <Content Include="Resources\cancel.ico" />
     <None Include="Resources\feedback.png" />
@@ -174,6 +208,7 @@
     <None Include="Resources\data.png" />
     <None Include="Resources\dayico.png" />
     <None Include="Resources\feedback1.png" />
+    <None Include="Resources\instagram.png" />
     <Content Include="Resources\ok.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -114,8 +114,7 @@ namespace ClipBoardManager
 
         private void updateButton_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new Forms.ClipboardForm());
+            MessageBox.Show("Coming Soon.");
         }
 
         private void backupClipboard_Click(object sender, EventArgs e)
@@ -127,7 +126,7 @@ namespace ClipBoardManager
         private void contactButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new Forms.ClipboardForm());
+            OpenChildForm(new Forms.Contact());
         }
 
         private void exitButton_Click(object sender, EventArgs e)
@@ -190,6 +189,11 @@ namespace ClipBoardManager
         {
             PanelTimer.Enabled = true;
             PanelTimer.Start();
+        }
+
+        private void panelIcon_Paint(object sender, PaintEventArgs e)
+        {
+            Home();
         }
     }
 }
