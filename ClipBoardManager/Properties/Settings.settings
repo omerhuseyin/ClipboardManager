@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClipBoardManager.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FeedbackURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://discord.com/api/webhooks/852885246734630994/MonkHE1WaU2REVn8U77Z7einRLTmwovO9PKr9Es9pFCmdXeqcCmW_jpIVx-mfNOfDOFI</Value>
+    </Setting>
+    <Setting Name="GeneralURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://discord.com/api/webhooks/852885246734630994/MonkHE1WaU2REVn8U77Z7einRLTmwovO9PKr9Es9pFCmdXeqcCmW_jpIVx-mfNOfDOFI</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
